@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <script src="calculator.js"></script>
+</head>
+<body>
+    <h1 id="intro"></h1>
+    <p id="para1"></p>
+    <p id="para2"></p>
+    <p id="para3"></p>
+    <p id="para4"></p>
+
+    <script>
+        document.getElementById("intro").innerHTML="Simple calculator"
+        document.getElementById("para1").innerHTML = "This is the answer to 200+1900:  "
+         +sum
+        document.getElementById("para2").innerHTML = "This is the answer to 1900-200:  "
+        +sub
+        document.getElementById("para3").innerHTML = "This is the answer to 200*1900:  "
+        +mul
+        document.getElementById("para4").innerHTML = "This is the answer to 1900/200:  "
+        +div
+    </script>
+    
+</body>
+</html>
